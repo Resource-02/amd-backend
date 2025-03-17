@@ -35,7 +35,7 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
     certificate: {
-      type: String, // This will store the URL of the uploaded PDF
+      type: String,
       required: true,
     },
   },
